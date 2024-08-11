@@ -1,6 +1,6 @@
 import { serve } from "bun";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 // Types
 interface User {

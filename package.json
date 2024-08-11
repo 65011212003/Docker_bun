@@ -1,16 +1,11 @@
 {
-  "name": "my-bun-api",
+  "name": "thai-lottery-api",
   "version": "1.0.0",
   "scripts": {
     "start": "bun run index.ts"
   },
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "bun": "^1.0.0",
-    "jsonwebtoken": "^9.0.2"
-  },
-  "devDependencies": {
-    "@types/bcrypt": "^5.0.2",
-    "@types/jsonwebtoken": "^9.0.6"
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3"
   }
 }
